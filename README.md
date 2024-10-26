@@ -1,1 +1,1 @@
-# gothblog
+# landingpage

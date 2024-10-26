@@ -1,0 +1,159 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Homemade+Apple&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
+
+* {
+    cursor: url("/assets/vinho.png"), auto;
+}
+
+body {
+    background-color: #111;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #222;
+}
+
+header img {
+    width: 80px;
+    filter: invert(100%);
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d32e5e;
+    font-family: "Fontdiner Swanky", serif;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #ccc;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2rem 0;
+}
+
+nav a {
+    color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d32e5e;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "Fontdiner Swanky", serif;
+}
+
+.social-links h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    color: #d32e5e;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+section {
+    padding: 2rem;
+    border-top: 1px solid #444;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #d32e5e;
+    font-family: "Fontdiner Swanky", serif;
+}
+
+section p {
+    margin-top: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+section a {
+    color: #d32e5e;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+    margin-top: 2rem;
+}
+
+.newsletter h2 {
+    color: #d32e5e;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d32e5e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #b82850;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111;
+    color: #e0e0e0;
+    font-size: 0.9rem;
+    border-top: 1px solid #444;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .social-links a {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+    }
+}
